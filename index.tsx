@@ -145,7 +145,7 @@ Add Visual Elements
       };
       
       const result = await ai.models.generateContent({
-        model: 'gemini-2.5-flash', // Updated model name
+        model: 'gemini-2.5', // Updated model name
         contents: { parts: [filePart, textPromptPart] },
       });
 
